@@ -1,0 +1,25 @@
+package com.example.spring.basic;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
+
+@ComponentScan(value = "com.example.spring.basic")
+public class SpringBasicApplication {
+
+    static Logger LOG = LoggerFactory.getLogger(SpringBasicApplication.class);
+
+    public static void main(String[] arg) {
+        ApplicationContext context = new AnnotationConfigApplicationContext(SpringBasicApplication.class);
+        for (String name : context.getBeanDefinitionNames()) {
+            LOG.info("Bean {} ", name);
+        }
+
+        A a = context.getBean(A.class);
+        LOG.info(" b in A {} ", a.getB());
+        LOG.info(" c in A {} ", a.getC());
+    }
+
+}

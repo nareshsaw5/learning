@@ -1,0 +1,16 @@
+package com.example.spring.basic;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+public class Profile {
+
+    Logger LOG = LoggerFactory.getLogger(Profile.class);
+
+    private Student student;
+
+    public void printName() {
+        System.out.println("Name "+);
+    }
+
+}

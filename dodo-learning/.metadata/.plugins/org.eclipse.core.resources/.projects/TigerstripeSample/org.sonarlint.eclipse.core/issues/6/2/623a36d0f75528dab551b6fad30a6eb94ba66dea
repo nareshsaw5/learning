@@ -1,0 +1,28 @@
+
+š"squid:ClassVariableVisibilityCheck)"NMake id a static final constant or non-public and provide accessors if needed.(Â¥ŠˆøÿÿÿÿH´RMINORZVULNERABILITY
+¥"squid:ClassVariableVisibilityCheck9"YMake serial_number a static final constant or non-public and provide accessors if needed.(Ñäè•ıÿÿÿÿHµRMINORZVULNERABILITY
+«"squid:ClassVariableVisibilityCheckI"eMake replacement_serial_number a static final constant or non-public and provide accessors if needed.(—Ê›tH¶RMINORZVULNERABILITY
+ "squid:ClassVariableVisibilityCheckY"TMake platform a static final constant or non-public and provide accessors if needed.(Á³æ¡ûÿÿÿÿH·RMINORZVULNERABILITY
+¬"squid:ClassVariableVisibilityChecki"`Make replacement_platform a static final constant or non-public and provide accessors if needed.(ØÚ¼®ıÿÿÿÿH¸RMINORZVULNERABILITY
+¢"squid:ClassVariableVisibilityChecky"VMake macaddress a static final constant or non-public and provide accessors if needed.(åÍ‡¿üÿÿÿÿH¹RMINORZVULNERABILITY
+ª"squid:ClassVariableVisibilityCheck‰"bMake replacement_macaddress a static final constant or non-public and provide accessors if needed.(‰€åHºRMINORZVULNERABILITY
+¤"squid:ClassVariableVisibilityCheck™"\Make replacement_date a static final constant or non-public and provide accessors if needed.(´€ŠôH»RMINORZVULNERABILITY
+¦"squid:ClassVariableVisibilityCheck©"YMake creation_date a static final constant or non-public and provide accessors if needed.(Œ¼à¼ûÿÿÿÿH¼RMINORZVULNERABILITY
+¢"squid:ClassVariableVisibilityCheck¹"ZMake fk_workflow_id a static final constant or non-public and provide accessors if needed.(Ÿô˜°H½RMINORZVULNERABILITY
+¨"squid:ClassVariableVisibilityCheckÉ"[Make fk_instanceuuid a static final constant or non-public and provide accessors if needed.(¿ ¤ãüÿÿÿÿH¾RMINORZVULNERABILITY
+‹squid:S001169"XRename this field "serial_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñäè•ıÿÿÿÿH¿RMINORZ
+CODE_SMELL
+‘squid:S00116I"dRename this field "replacement_serial_number" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—Ê›tHÀRMINORZ
+CODE_SMELL
+’squid:S00116i"_Rename this field "replacement_platform" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ØÚ¼®ıÿÿÿÿHÁRMINORZ
+CODE_SMELL
+squid:S00116‰"aRename this field "replacement_macaddress" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰€åHÂRMINORZ
+CODE_SMELL
+Šsquid:S00116™"[Rename this field "replacement_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´€ŠôHÃRMINORZ
+CODE_SMELL
+Œsquid:S00116©"XRename this field "creation_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Œ¼à¼ûÿÿÿÿHÄRMINORZ
+CODE_SMELL
+ˆsquid:S00116¹"YRename this field "fk_workflow_id" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿô˜°HÅRMINORZ
+CODE_SMELL
+squid:S00116É"ZRename this field "fk_instanceuuid" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿ ¤ãüÿÿÿÿHÆRMINORZ
+CODE_SMELL

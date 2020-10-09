@@ -1,0 +1,26 @@
+package com.example.spring.basic;
+
+@Component
+public class A {
+
+    private B b;
+    private C c;
+
+    A() {
+
+    }
+
+    A(B b) {
+        this.b = b;
+    }
+
+    A(C c) {
+        this.c = c;
+    }
+
+    A(B b, C c) {
+        this.b = b;
+        this.c = c;
+    }
+
+}

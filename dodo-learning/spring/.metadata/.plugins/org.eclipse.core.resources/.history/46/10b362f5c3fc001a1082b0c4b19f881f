@@ -1,0 +1,16 @@
+package com.example.springdb.springdb;
+
+import org.junit.jupiter.api.Test;
+
+class SpringdbApplicationTests {
+
+    @Test
+    void contextLoads() {
+    }
+
+    @Test
+    public void vargTest() {
+
+    }
+
+}

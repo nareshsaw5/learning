@@ -1,0 +1,78 @@
+package com.cisco.dnac.dnjson;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
+
+import org.apache.commons.io.IOUtils;
+import org.junit.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+import com.cisco.dnac.dnjson.Diff;
+import com.cisco.dnac.dnjson.DnjsonDiff;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.google.common.base.Charsets;
+
+public class ModelDiffTest {
+
+    private DnjsonDiff dnjsonDiff;
+    private ObjectMapper mapper;
+    private String baseResourceName;
+
+    @DataProvider
+    public Object[][] getData() {
+        return new Object[][]{
+                {"Sample large json data", "testSample1Object"}, // RadiusNeSettings
+                {"Simple array data, position based getDiff ", "testPlainListIndex"},
+                {"com.cisco.xmp.model.foundation.connectivity.PhysicalProtocolEndpoint", "testProtocolEndpoint1"}, // ProtocolEndpoint
+                {"com.cisco.xmp.model.foundation.connectivity.PhysicalProtocolEndpoint", "testProtocolEndpoint2"}, // ProtocolEndpoint
+                {"com.cisco.ifm.model.interfaces.SwitchPort", "testProtocolEndpoint_SwitchPort1"}, // ProtocolEndpoint
+                {"com.cisco.ifm.model.interfaces.SwitchPort", "testProtocolEndpoint_SwitchPort2"}, // ProtocolEndpoint
+                {"com.cisco.xmp.model.foundation.connectivity.InterfaceProtocolEndpoint", "testProtocolEndpoint_IntrfcPrtclEndpnt1"}, // ProtocolEndpoint
+                {"com.cisco.ifm.model.interfaces.VLANInterfaceExtended", "testProtocolEndpoint_VLANInterfaceExtended1"}, // ProtocolEndpoint
+                {"com.cisco.xmp.model.managed.vendorSpecificTechnologies.cisco.security.radius.RadiusNeSettings", "testSwProfile_RadiusNeSettings"}
+        };
+    }
+
+    public ModelDiffTest(String baseResourceName) {
+        this.baseResourceName = baseResourceName;
+    }
+    
+    @BeforeTest
+    public void beforeTest() {
+        dnjsonDiff = new DnjsonDiff();
+        mapper = new ObjectMapper();
+    }
+
+    @Test(dataProvider="getData")
+    public void testModelDifference(String context, String baseResourceName) throws Exception {
+        baseResourceName = "/model_test_data/"+baseResourceName;
+        String running = asString(getResourceAsStream(baseResourceName + "_left.json"));
+        String intended = asString(getResourceAsStream(baseResourceName + "_right.json"));
+        String expected = asString(getResourceAsStream((baseResourceName + "_expectedDiff.json")));
+        List<Diff> actualDiff = dnjsonDiff.getDiff(running, intended);
+        String expectedString  = mapper.writeValueAsString(asJsonNode(expected));
+        String actualString = mapper.writeValueAsString(actualDiff);
+        Assert.assertEquals("Both are not matching", expectedString,actualString);
+    }
+
+    /**
+     * @param input
+     * @return
+     * @throws Exception
+     */
+    private JsonNode asJsonNode(String input) throws Exception {
+        return mapper.readTree(input);
+    }
+    
+    private String asString(InputStream inputStream) throws IOException {
+        return IOUtils.toString(inputStream);
+    }
+    
+    private InputStream getResourceAsStream(String resource) {
+        return ModelDiffTest.class.getResourceAsStream(resource);
+    }
+}

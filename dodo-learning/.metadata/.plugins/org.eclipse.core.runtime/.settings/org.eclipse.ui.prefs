@@ -1,0 +1,3 @@
+defaultEditorsCache=*.class\:org.sf.feeling.decompiler.ClassFileEditor; *.class without source\:org.sf.feeling.decompiler.ClassFileEditor
+eclipse.preferences.version=1
+showIntro=false

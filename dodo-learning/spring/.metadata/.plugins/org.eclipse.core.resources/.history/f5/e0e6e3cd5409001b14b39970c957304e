@@ -1,0 +1,8 @@
+package com.example.spring.factory;
+
+import org.springframework.stereotype.Component;
+
+
+public class AccountService {
+
+}

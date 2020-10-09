@@ -1,0 +1,20 @@
+package com.example.springdb.springdb;
+
+import org.junit.jupiter.api.Test;
+import org.junit.runner.Runner;
+import org.springframework.boot.test.context.SpringBootTest;
+
+//@SpringBootTest
+@RunWith(SpringdbApplicationTests.class)
+class SpringdbApplicationTests extends Runner {
+
+    @Test
+    void contextLoads() {
+    }
+
+    @Test
+    public void vargTest() {
+        
+    }
+
+}

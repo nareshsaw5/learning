@@ -1,0 +1,11 @@
+package com.example.spring.basic;
+
+public class HelloWorld {
+
+    private String message;
+
+    public void printName() {
+        System.out.println("Hello Naresh");
+    }
+
+}

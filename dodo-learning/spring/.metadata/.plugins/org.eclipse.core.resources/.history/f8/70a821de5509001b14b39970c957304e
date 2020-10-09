@@ -1,0 +1,27 @@
+package com.in28minutes.spring.basic.springin5steps;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Configuration;
+
+import com.example.spring.javabased.factory.account.AccountService;
+
+@Configuration(value = "AccountConfig.class")
+public class SpringAccountApplication {
+
+    Logger LOG = LoggerFactory.getLogger(SpringAccountApplication.class);
+
+    @Autowired
+    AccountService accountService;
+
+    public static void main(String[] arg) {
+        ApplicationContext context = new AnnotationConfigApplicationContext();
+        LOG.info("{} ", accountService);
+       
+
+    }
+
+}

@@ -1,0 +1,8 @@
+package com.in28minutes.spring.basic.springin5steps;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class SpringAccountApplication {
+
+}

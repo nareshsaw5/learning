@@ -1,0 +1,18 @@
+package com.example.spring.basic;
+
+import org.junit.Test;
+import org.springframework.beans.factory.BeanFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class BeanFactoryTest {
+
+    @Test
+    public void testClassPathXmlApplicationContext() {
+        ApplicationContext context = new ClassPathXmlApplicationContext(new String[] { "SpringHelloWorld.xml" });
+        BeanFactory factory = context;
+        Spring3HelloWorld myBean = (Spring3HelloWorld) factory.getBean("Spring3HelloWorldBean");
+        myBean.sayHello();
+    }
+
+}

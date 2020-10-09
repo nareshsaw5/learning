@@ -1,0 +1,11 @@
+package com.in28minutes.spring.basic.springin5steps;
+
+import org.junit.Test;
+
+class SpringIn5StepsApplicationTests {
+
+	@Test
+	public void contextLoads() {
+	}
+
+}

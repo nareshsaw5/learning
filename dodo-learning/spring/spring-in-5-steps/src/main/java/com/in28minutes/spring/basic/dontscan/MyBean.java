@@ -1,0 +1,12 @@
+package com.in28minutes.spring.basic.dontscan;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class MyBean {
+
+    public void iniit() {
+        System.out.println("Initializing bean " + this);
+    }
+
+}

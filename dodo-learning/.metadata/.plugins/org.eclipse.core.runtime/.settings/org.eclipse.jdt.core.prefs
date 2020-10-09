@@ -1,0 +1,10 @@
+eclipse.preferences.version=1
+formatter_profile=_SunCodingStyle
+org.eclipse.jdt.core.classpathVariable.JRE_LIB=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/jre/lib/rt.jar
+org.eclipse.jdt.core.classpathVariable.JRE_SRC=/Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip
+org.eclipse.jdt.core.classpathVariable.JRE_SRCROOT=src
+org.eclipse.jdt.core.classpathVariable.PROFILE_ARTIFACTS_LIB=/Applications/DNA-C Development Studio/DNA-C Development Studio.app/Contents/Profile/tigerstripe/phantom/lib/phantom.zip
+org.eclipse.jdt.core.codeComplete.visibilityCheck=enabled
+org.eclipse.jdt.core.formatter.insert_space_after_closing_angle_bracket_in_type_arguments=insert
+org.eclipse.jdt.core.formatter.tabulation.char=space
+org.eclipse.jdt.core.formatter.use_on_off_tags=true

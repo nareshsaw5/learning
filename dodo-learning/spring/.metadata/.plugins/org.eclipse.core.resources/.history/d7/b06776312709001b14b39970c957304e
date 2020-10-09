@@ -1,0 +1,42 @@
+package com.example.spring.basic;
+
+import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class BeanFactoryTest {
+
+    Logger LOG = LoggerFactory.getLogger(BeanFactoryTest.class);
+
+    @Test
+    public void testClassPathXmlApplicationContext() {
+        ApplicationContext context = new ClassPathXmlApplicationContext(new String[] { "spring/beans.xml" });
+        HelloWorld myBean = (HelloWorld) context.getBean("helloWorld");
+        HelloWorld myBean2 = (HelloWorld) context.getBean("hiWorld");
+        LOG.info("bean by id {} ", myBean);
+        LOG.info("hash code {} ", Integer.toHexString(myBean2.hashCode()));
+        LOG.info("bean classLoader {} ", myBean2.getClass().getClassLoader());
+        LOG.info("message {} ", myBean.getMessage());
+    }
+
+    @Test
+    public void testAutowire() {
+        ApplicationContext ctx = new ClassPathXmlApplicationContext(new String[] { "spring/applicationContext.xml" });
+        Profile profile = ctx.getBean(Profile.class);
+        LOG.info("Test autowire");
+        profile.printName();
+
+    }
+
+    @Test
+    public void testArrayContstruct() {
+        String[] ar = new String[] { "Naresh", "Suresh" };
+
+        for (String name : ar) {
+            LOG.info(" {} ", name);
+        }
+    }
+
+}

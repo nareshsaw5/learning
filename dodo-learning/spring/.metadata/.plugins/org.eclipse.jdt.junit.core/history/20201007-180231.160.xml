@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SpringdbApplicationTests" project="springdb" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.example.springdb.springdb.SpringdbApplicationTests" time="0.136" displayname="SpringdbApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.example.springdb.springdb.SpringdbApplicationTests]">
+    <testcase name="vargTest" classname="com.example.springdb.springdb.SpringdbApplicationTests" time="0.116" displayname="vargTest()" uniqueid="[engine:junit-jupiter]/[class:com.example.springdb.springdb.SpringdbApplicationTests]/[method:vargTest()]"/>
+    <testcase name="contextLoads" classname="com.example.springdb.springdb.SpringdbApplicationTests" time="0.02" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.example.springdb.springdb.SpringdbApplicationTests]/[method:contextLoads()]"/>
+  </testsuite>
+</testrun>

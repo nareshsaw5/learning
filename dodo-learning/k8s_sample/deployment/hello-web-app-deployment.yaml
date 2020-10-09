@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: hello-web-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: hello-web-app
+  template:
+    metadata:
+      labels:
+        app: hello-web-app
+    spec:
+      containers:
+      - name: hello-web-app
+        image: hello_web_app:latest
+        ports:
+        - containerPort: 8080
+        imagePullPolicy: Never  

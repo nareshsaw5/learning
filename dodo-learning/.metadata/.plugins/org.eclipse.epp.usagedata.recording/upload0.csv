@@ -1,0 +1,316 @@
+what,kind,bundleId,bundleVersion,description,time
+userinfo,misc,,,"{""account.name"":""nsaw"",""localhost.hostname"":""NSAW-M-R0YR"",""runtime.hostname"":""NSAW-M-R0YR""}",1539861309367
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1539861309371
+os,sysinfo,,,"macosx",1539861309374
+arch,sysinfo,,,"x86_64",1539861309374
+ws,sysinfo,,,"cocoa",1539861309374
+locale,sysinfo,,,"en_IN",1539861309374
+processors,sysinfo,,,"8",1539861309374
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1539861309374
+java.runtime.version,sysinfo,,,"1.8.0_181-b13",1539861309374
+java.specification.name,sysinfo,,,"Java Platform API Specification",1539861309374
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1539861309374
+java.specification.version,sysinfo,,,"1.8",1539861309374
+java.vendor,sysinfo,,,"Oracle Corporation",1539861309374
+java.version,sysinfo,,,"1.8.0_181",1539861309374
+java.vm.info,sysinfo,,,"mixed mode",1539861309374
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1539861309374
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1539861309374
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1539861309374
+java.vm.specification.version,sysinfo,,,"1.8",1539861309374
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1539861309374
+java.vm.version,sysinfo,,,"25.181-b13",1539861309374
+os.name,sysinfo,,,"Mac OS X",1539861309374
+os.version,sysinfo,,,"10.13.6",1539861309374
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.import",1539861345533
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.import",1539861345533
+opened,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1539861377370
+activated,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1539861377760
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.copy",1539861388321
+closed,view,org.eclipse.wst.server.ui,,"org.eclipse.wst.server.ui.ServersView",1539861410069
+closed,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1539861410094
+closed,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ProblemView",1539861410110
+closed,view,org.eclipse.ui.views,,"org.eclipse.ui.views.ContentOutline",1539861410119
+closed,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1539861410143
+userinfo,misc,,,"{""account.name"":""nsaw"",""localhost.hostname"":""NSAW-M-R0YR"",""runtime.hostname"":""NSAW-M-R0YR""}",1541563875042
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1541563875044
+os,sysinfo,,,"macosx",1541563875048
+arch,sysinfo,,,"x86_64",1541563875048
+ws,sysinfo,,,"cocoa",1541563875048
+locale,sysinfo,,,"en_IN",1541563875048
+processors,sysinfo,,,"8",1541563875048
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1541563875048
+java.runtime.version,sysinfo,,,"1.8.0_181-b13",1541563875048
+java.specification.name,sysinfo,,,"Java Platform API Specification",1541563875048
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1541563875048
+java.specification.version,sysinfo,,,"1.8",1541563875048
+java.vendor,sysinfo,,,"Oracle Corporation",1541563875048
+java.version,sysinfo,,,"1.8.0_181",1541563875048
+java.vm.info,sysinfo,,,"mixed mode",1541563875048
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1541563875048
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1541563875048
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1541563875048
+java.vm.specification.version,sysinfo,,,"1.8",1541563875048
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1541563875048
+java.vm.version,sysinfo,,,"25.181-b13",1541563875048
+os.name,sysinfo,,,"Mac OS X",1541563875048
+os.version,sysinfo,,,"10.14",1541563875048
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541564252076
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.import",1541564466672
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.import",1541564466672
+executed,command,org.eclipse.ltk.ui.refactoring,,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1541564479835
+closed,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541564479878
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.delete",1541564479922
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.import",1541564495568
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.import",1541564495568
+opened,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1541564503725
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1541564503931
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541564516835
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541564532974
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1541564574684
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.undo",1541564576323
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1541564646532
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541564647896
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.cut",1541564665413
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1541564667845
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541564668628
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.selectAll",1541564708025
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1541564718805
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541564720040
+closed,view,org.eclipse.wst.server.ui,,"org.eclipse.wst.server.ui.ServersView",1541645798457
+closed,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541645798540
+closed,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ProblemView",1541645798613
+closed,view,org.eclipse.ui.views,,"org.eclipse.ui.views.ContentOutline",1541645798650
+closed,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1541645798697
+userinfo,misc,,,"{""account.name"":""nsaw"",""localhost.hostname"":""NSAW-M-R0YR"",""runtime.hostname"":""NSAW-M-R0YR""}",1541914293981
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1541914293983
+os,sysinfo,,,"macosx",1541914293985
+arch,sysinfo,,,"x86_64",1541914293985
+ws,sysinfo,,,"cocoa",1541914293985
+locale,sysinfo,,,"en_IN",1541914293985
+processors,sysinfo,,,"8",1541914293985
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1541914293985
+java.runtime.version,sysinfo,,,"1.8.0_181-b13",1541914293985
+java.specification.name,sysinfo,,,"Java Platform API Specification",1541914293985
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1541914293985
+java.specification.version,sysinfo,,,"1.8",1541914293985
+java.vendor,sysinfo,,,"Oracle Corporation",1541914293985
+java.version,sysinfo,,,"1.8.0_181",1541914293985
+java.vm.info,sysinfo,,,"mixed mode",1541914293985
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1541914293985
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1541914293985
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1541914293985
+java.vm.specification.version,sysinfo,,,"1.8",1541914293985
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1541914293985
+java.vm.version,sysinfo,,,"25.181-b13",1541914293985
+os.name,sysinfo,,,"Mac OS X",1541914293985
+os.version,sysinfo,,,"10.14",1541914293985
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.import",1541914306858
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.import",1541914306858
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1541914310434
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541914310567
+closed,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1541914310599
+opened,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541914318559
+activated,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541914318859
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541914323493
+opened,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541914776263
+activated,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541914776336
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541914792201
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541914797108
+opened,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541914909368
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541914909417
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.saveAs",1541914938099
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1541914957156
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541914958858
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541914963034
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541915141881
+executed,command,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.edit.text.java.rename.element",1541915179400
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541915277296
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541915279134
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541915592289
+executed,command,org.eclipse.ltk.ui.refactoring,,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1541915596782
+closed,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541915596803
+closed,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541915596881
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.delete",1541915596888
+opened,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541915665932
+activated,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541915666000
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541915667886
+activated,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541915668204
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541915697476
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541915701146
+opened,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541915792993
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541915793015
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1541915818062
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541915819213
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541915824453
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541915937364
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541915938236
+activated,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541915943126
+closed,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541915943135
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541915945117
+opened,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541915945469
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541915945515
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1541915958349
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541915959832
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541916000387
+opened,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541916018310
+activated,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541916018384
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541916035202
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541916037071
+closed,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541916037080
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541916052545
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541916058459
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541916063711
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541916068319
+closed,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541916071413
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.delete",1541916071525
+opened,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1541916447576
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1541916447662
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1541916455963
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1541916474631
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541916485764
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541916830484
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.copy",1541916832879
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1541916833749
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1541916837107
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.cut",1541916855248
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541917156056
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541917161668
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541917291732
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1541917470262
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541917482960
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541917535385
+opened,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1541917561755
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1541917561779
+executed,command,org.eclipse.ui,,"org.eclipse.ui.views.showView",1541917561786
+opened,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541917602631
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541917602662
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1541917608160
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541917671895
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541917781641
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1541917895216
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.copy",1541917896932
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541917897520
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.selectAll",1541917899059
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.copy",1541917899883
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1541917902601
+opened,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541917912600
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541917912623
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1541917914178
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541917915195
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541917916114
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541917916832
+closed,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541917916839
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1541917918493
+executed,command,org.eclipse.ltk.ui.refactoring,,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1541917922035
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541917922932
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1541917941985
+closed,view,org.eclipse.wst.server.ui,,"org.eclipse.wst.server.ui.ServersView",1541918419139
+closed,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1541918419190
+closed,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1541918419208
+closed,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ProblemView",1541918419235
+closed,view,org.eclipse.ui.views,,"org.eclipse.ui.views.ContentOutline",1541918419266
+closed,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1541918419287
+closed,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541918419297
+closed,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1541918419309
+closed,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1541918419336
+userinfo,misc,,,"{""account.name"":""nsaw"",""localhost.hostname"":""NSAW-M-R0YR"",""runtime.hostname"":""NSAW-M-R0YR""}",1542258917476
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1542258917479
+os,sysinfo,,,"macosx",1542258917483
+arch,sysinfo,,,"x86_64",1542258917483
+ws,sysinfo,,,"cocoa",1542258917483
+locale,sysinfo,,,"en_IN",1542258917483
+processors,sysinfo,,,"8",1542258917483
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1542258917483
+java.runtime.version,sysinfo,,,"1.8.0_181-b13",1542258917483
+java.specification.name,sysinfo,,,"Java Platform API Specification",1542258917483
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1542258917483
+java.specification.version,sysinfo,,,"1.8",1542258917483
+java.vendor,sysinfo,,,"Oracle Corporation",1542258917483
+java.version,sysinfo,,,"1.8.0_181",1542258917483
+java.vm.info,sysinfo,,,"mixed mode",1542258917483
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1542258917483
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1542258917483
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1542258917483
+java.vm.specification.version,sysinfo,,,"1.8",1542258917483
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1542258917483
+java.vm.version,sysinfo,,,"25.181-b13",1542258917483
+os.name,sysinfo,,,"Mac OS X",1542258917483
+os.version,sysinfo,,,"10.14",1542258917483
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1542258966732
+opened,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1542258968699
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1542258968910
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1542261874933
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1542261875270
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1542261880286
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1542261894753
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1542261902143
+opened,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1542261909318
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1542261909381
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1542261920738
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1542261922214
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.cut",1542261929191
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1542261931784
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1542261932996
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1542261957935
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1542261959904
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ProblemView",1542262043423
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1542262045958
+opened,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1542262053004
+activated,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1542262053451
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1542262419384
+activated,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1542262419703
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1542262423617
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1542262428281
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1542262428844
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1542262433351
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1543989329138
+os,sysinfo,,,"macosx",1543989329141
+arch,sysinfo,,,"x86_64",1543989329141
+ws,sysinfo,,,"cocoa",1543989329141
+locale,sysinfo,,,"en_IN",1543989329141
+processors,sysinfo,,,"8",1543989329141
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1543989329141
+java.runtime.version,sysinfo,,,"1.8.0_181-b13",1543989329141
+java.specification.name,sysinfo,,,"Java Platform API Specification",1543989329141
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1543989329141
+java.specification.version,sysinfo,,,"1.8",1543989329141
+java.vendor,sysinfo,,,"Oracle Corporation",1543989329141
+java.version,sysinfo,,,"1.8.0_181",1543989329141
+java.vm.info,sysinfo,,,"mixed mode",1543989329141
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1543989329141
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1543989329141
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1543989329141
+java.vm.specification.version,sysinfo,,,"1.8",1543989329141
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1543989329141
+java.vm.version,sysinfo,,,"25.181-b13",1543989329141
+os.name,sysinfo,,,"Mac OS X",1543989329141
+os.version,sysinfo,,,"10.14.1",1543989329141
+userinfo,misc,,,"{""account.name"":""nsaw"",""localhost.hostname"":""NSAW-M-R0YR"",""runtime.hostname"":""NSAW-M-R0YR""}",1543989329347
+opened,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1543989373647
+opened,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ProblemView",1543989373860
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1543989373899
+activated,perspective,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.community.tigerstripePerspective",1543989373916
+opened,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.descriptorEditor",1543989374837
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.descriptorEditor",1543989374875
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1543989380445
+opened,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1543989409514
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1543989409539
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1543989683606
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1543989688105
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1543989695634
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1543989716215
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1543992499163
+opened,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1543992512080
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1543992512121
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1543992596952
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1543992597802
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1543992598222
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1543992652485
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1543992688870
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1543992690060
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.copy",1543992693499
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1543992694542
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1543992694936
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.paste",1543992696244
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1543994623102

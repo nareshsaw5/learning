@@ -1,0 +1,82 @@
+# json-diff-lib library does not implement any RFC, however uses Open Source library [zjsonpatch] (https://github.com/flipkart-incubator/zjsonpatch) extensively and has been enhanced to be used for multiple use-case where you need to ignore array order. The library is written in Java.
+
+## Description & Use-Cases
+- It is a Java Library to find differences between two JSON content.
+- zjsonpatch has implemented [RFC 6902](http://tools.ietf.org/html/rfc6902).
+- The zjsonpatch adhere RFC and returns these two array as different: left = [1,2,3,4]  vs right = [2,1,4,3]
+- Enhancements:
+1.  Ignore Array Order:  This library ignore array order to generate array diff. E.g. [1,2,3,4,5] equals to [2,1,3,5,4]  and ["Bob","Mary"] equals to ["Mary", "Bob"]
+1. Compare array elements with businessKey as identifier:
+ E.g. In below
+ arrays(left and right), Bob is compared against John as they have same businessKey 
+ 
+ left =[{"name":"Bob","businessKey":"4444"},{"name":"John","businessKey":"5555"}]
+ 
+ right = [{"name":"Bob","businessKey":"6666"},{"name":"John", "businessKey":"4444"}]
+
+### Compatible with : Java 8+ versions
+
+### How to use:
+
+Add following to `<dependencies/>` section of your pom.xml -
+
+```xml
+<groupId>com.cisco.apicem</groupId>
+<artifactId>common-dnjson-diff</artifactId>
+<version>7.1.260-SNAPSHOT</version>
+```
+
+
+## API Usage
+
+### Obtaining diff list
+```xml
+List<Diff> diff = new DnjsonDiff().getDiff(String sourceJsonContent, String targetJsonContent)
+```
+
+### Example
+Left Json
+``` 
+left =[{"name":"Bob","businessKey":"4444"},{"name":"John","businessKey":"5555"}]
+```
+
+Right Json
+```
+right = [{"name":"Bob","businessKey":"6666"},{"name":"John", "businessKey":"4444"}]
+```
+Following diff will be returned:
+```json
+[
+    {
+        "op": "replace",
+        "configuredValue": "John",
+        "intendedValue": "Bob",
+        "moveFromPath": null,
+        "businessKey": "4444",
+        "path": "/0/name",
+        "extendedAttributes": null,
+        "displayName": null
+    },
+    {
+        "op": "remove",
+        "configuredValue": null,
+        "intendedValue": "{\"name\":\"John\",\"businessKey\":\"5555\"}",
+        "moveFromPath": null,
+        "businessKey": "5555",
+        "path": "/1",
+        "extendedAttributes": null,
+        "displayName": null
+    },
+    {
+        "op": "add",
+        "configuredValue": "{\"name\":\"Bob\",\"businessKey\":\"6666\"}",
+        "intendedValue": null,
+        "moveFromPath": null,
+        "businessKey": "null",
+        "path": "/0",
+        "extendedAttributes": null,
+        "displayName": null
+    }
+]
+```
+

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="SpringIn5StepsApplicationTests" project="spring-in-5-steps" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.in28minutes.spring.basic.springin5steps.SpringIn5StepsApplicationTests" time="0.0">
+    <testcase name="contextLoads" classname="com.in28minutes.spring.basic.springin5steps.SpringIn5StepsApplicationTests" time="0.0"/>
+  </testsuite>
+</testrun>

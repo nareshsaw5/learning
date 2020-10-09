@@ -1,0 +1,8 @@
+package com.example.spring.basic;
+
+public class Student {
+
+    private int id;
+    private String name;
+
+}

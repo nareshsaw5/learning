@@ -1,0 +1,39 @@
+
+gsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(¸ö–¦øÿÿÿÿ
+Qsquid:S1854":Remove this useless assignment to local variable "jsonR1".(’ÂØ¿
+squid:S1192‚"iDefine a constant instead of duplicating this literal "              \"sequenceNumber\": 100,\n" 3 times.(®Âƒç
+Îsquid:S1192x"¶Define a constant instead of duplicating this literal "              \"@class\": \"com.cisco.xmp.model.managed.vendorSpecificTechnologies.cisco.acl.AclAddressCondition\",\n" 3 times.(¦ÑÍ‹
+„squid:S1192"hDefine a constant instead of duplicating this literal "              \"instanceVersion\": 0,\n" 3 times.(ˆˆàûÿÿÿÿ
+Vsquid:S1854":Remove this useless assignment to local variable "mapper".(ÐÏáúÿÿÿÿ
+Gsquid:S1481"+Remove this unused "mapper" local variable.(ÐÏáúÿÿÿÿ
+Qsquid:S1854.":Remove this useless assignment to local variable "jsonL4".(×Ëö½
+Vsquid:S1854":Remove this useless assignment to local variable "jsonR2".(òºáÜýÿÿÿÿ
+Gsquid:S1481"+Remove this unused "jsonL1" local variable.(›óî»ûÿÿÿÿ
+‰squid:S1192~"mDefine a constant instead of duplicating this literal "              \"deployPending\": \"NONE\",\n" 3 times.(óÍóÿÿÿÿÿ
+Bsquid:S1481"+Remove this unused "jsonL2" local variable.(ÎËìÞ
+ƒsquid:S1192ˆ"kDefine a constant instead of duplicating this literal "                \"isHostAddress\": false\n" 3 times.(Èï¹¤
+Gsquid:S1481&"+Remove this unused "jsonR3" local variable.(ÎäÍ©úÿÿÿÿ
+Bsquid:S1481."+Remove this unused "jsonL4" local variable.(×Ëö½
+squid:S1192}"qDefine a constant instead of duplicating this literal "              \"authEntityClass\": -927529445,\n" 3 times.(­·¡Ôúÿÿÿÿ
+Gsquid:S1481"+Remove this unused "jsonR2" local variable.(òºáÜýÿÿÿÿ
+Vsquid:S1854":Remove this useless assignment to local variable "jsonL1".(›óî»ûÿÿÿÿ
+Bsquid:S1481A"+Remove this unused "jsonR4" local variable.(ç•ýŒ
+¡squid:S1192ƒ"ˆDefine a constant instead of duplicating this literal "              \"aclEntry\": \"22137ff1-a1dd-4a13-a304-27776a25f1ee\",\n" 3 times.(ƒ˜–˜
+Vsquid:S1854&":Remove this useless assignment to local variable "jsonR3".(ÎäÍ©úÿÿÿÿ
+~squid:S11926"bDefine a constant instead of duplicating this literal "        \"instanceVersion\": 0,\n" 4 times.(ˆˆàûÿÿÿÿ
+U
+squid:S106ê"9Replace this use of System.out or System.err by a logger.(Ó±ÿÒþÿÿÿÿ
+€squid:S1192‡"cDefine a constant instead of duplicating this literal "                \"isAny\": true,\n" 3 times.(ôÒùúÿÿÿÿ
+wsquid:S1192„"_Define a constant instead of duplicating this literal "              \"address\": {\n" 3 times.(¶’Ë
+Qsquid:S1854":Remove this useless assignment to local variable "jsonL3".(ñµÀ­
+Bsquid:S1481"+Remove this unused "jsonR1" local variable.(’ÂØ¿
+Œsquid:S1192€"uDefine a constant instead of duplicating this literal "              \"owningEntityId\": \"81081_81081\",\n" 3 times.(ˆ¥d
+Qsquid:S1854A":Remove this useless assignment to local variable "jsonR4".(ç•ýŒ
+ƒsquid:S11925"gDefine a constant instead of duplicating this literal "        \"deployPending\": \"NONE\",\n" 4 times.(óÍóÿÿÿÿÿ
+lsquid:S1192w"PDefine a constant instead of duplicating this literal "            {\n" 3 times.(Ÿñ¼Ñÿÿÿÿÿ
+Bsquid:S1481"+Remove this unused "jsonL3" local variable.(ñµÀ­
+Qsquid:S1854":Remove this useless assignment to local variable "jsonL2".(ÎËìÞ
+ßsquid:S1192…"ÆDefine a constant instead of duplicating this literal "                \"@class\": \"com.cisco.xmp.model.managed.vendorSpecificTechnologies.cisco.accessControlList.AclIpAddressAndMask\",\n" 3 times.(ò†—˜
+€squid:S1192{"iDefine a constant instead of duplicating this literal "              \"authEntityId\": 81081,\n" 3 times.(ç²Å”
+ksquid:S1192‰"SDefine a constant instead of duplicating this literal "              },\n" 3 times.(¥ÁÊÁ
+‡squid:S11924"kDefine a constant instead of duplicating this literal "        \"authEntityClass\": -927529445,\n" 4 times.(­·¡Ôúÿÿÿÿ

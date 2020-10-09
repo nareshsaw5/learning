@@ -1,0 +1,18 @@
+package com.in28minutes.spring.basic.springin5steps;
+
+import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration(value = "AccountConfig.class")
+public class SpringAccountApplication {
+
+    Logger LOG = LoggerFactory.getLogger(SpringAccountApplication.class);
+
+    public static void main(String[] arg) {
+        ApplicationContext context = new AnnotationConfigApplicationContext();
+
+    }
+
+}

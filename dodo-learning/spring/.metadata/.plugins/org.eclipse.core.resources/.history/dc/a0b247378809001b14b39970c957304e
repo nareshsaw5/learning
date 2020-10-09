@@ -1,0 +1,8 @@
+package com.example.spring.basic;
+
+import org.springframework.stereotype.Component;
+
+
+public class B {
+
+}

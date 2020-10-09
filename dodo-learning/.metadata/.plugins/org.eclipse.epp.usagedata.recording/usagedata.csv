@@ -1,0 +1,181 @@
+what,kind,bundleId,bundleVersion,description,time
+activated,perspective,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.community.tigerstripePerspective",1543999619309
+os,sysinfo,,,"macosx",1543999619313
+arch,sysinfo,,,"x86_64",1543999619313
+ws,sysinfo,,,"cocoa",1543999619313
+locale,sysinfo,,,"en_IN",1543999619313
+processors,sysinfo,,,"8",1543999619313
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1543999619313
+java.runtime.version,sysinfo,,,"1.8.0_181-b13",1543999619313
+java.specification.name,sysinfo,,,"Java Platform API Specification",1543999619313
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1543999619313
+java.specification.version,sysinfo,,,"1.8",1543999619313
+java.vendor,sysinfo,,,"Oracle Corporation",1543999619313
+java.version,sysinfo,,,"1.8.0_181",1543999619313
+java.vm.info,sysinfo,,,"mixed mode",1543999619313
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1543999619313
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1543999619313
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1543999619313
+java.vm.specification.version,sysinfo,,,"1.8",1543999619313
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1543999619313
+java.vm.version,sysinfo,,,"25.181-b13",1543999619313
+os.name,sysinfo,,,"Mac OS X",1543999619313
+os.version,sysinfo,,,"10.14.1",1543999619313
+userinfo,misc,,,"{""account.name"":""nsaw"",""localhost.hostname"":""NSAW-M-R0YR"",""runtime.hostname"":""NSAW-M-R0YR""}",1543999619487
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1543999624063
+no handler,command,org.eclipse.ui,,"org.eclipse.ui.edit.copy",1543999626545
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1544009899067
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1544009905532
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1544009987084
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.delete",1544009992666
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1544010039875
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1544010045369
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1544010045769
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1544010046611
+opened,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.descriptorEditor",1544010047366
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.descriptorEditor",1544010047396
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1544010063104
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1544010063429
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1544063848720
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.descriptorEditor",1544071701294
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1544071726262
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.descriptorEditor",1544156015210
+closed,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1544158754106
+closed,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ProblemView",1544158754287
+closed,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1544158754363
+closed,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.descriptorEditor",1544158754425
+userinfo,misc,,,"{""account.name"":""nsaw"",""localhost.hostname"":""NSAW-M-R0YR"",""runtime.hostname"":""NSAW-M-R0YR""}",1559563619690
+activated,perspective,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.community.tigerstripePerspective",1559563619694
+os,sysinfo,,,"macosx",1559563619698
+arch,sysinfo,,,"x86_64",1559563619698
+ws,sysinfo,,,"cocoa",1559563619698
+locale,sysinfo,,,"en_IN",1559563619698
+processors,sysinfo,,,"8",1559563619698
+java.runtime.name,sysinfo,,,"Java(TM) SE Runtime Environment",1559563619698
+java.runtime.version,sysinfo,,,"1.8.0_181-b13",1559563619698
+java.specification.name,sysinfo,,,"Java Platform API Specification",1559563619698
+java.specification.vendor,sysinfo,,,"Oracle Corporation",1559563619698
+java.specification.version,sysinfo,,,"1.8",1559563619698
+java.vendor,sysinfo,,,"Oracle Corporation",1559563619698
+java.version,sysinfo,,,"1.8.0_181",1559563619698
+java.vm.info,sysinfo,,,"mixed mode",1559563619698
+java.vm.name,sysinfo,,,"Java HotSpot(TM) 64-Bit Server VM",1559563619698
+java.vm.specification.name,sysinfo,,,"Java Virtual Machine Specification",1559563619698
+java.vm.specification.vendor,sysinfo,,,"Oracle Corporation",1559563619698
+java.vm.specification.version,sysinfo,,,"1.8",1559563619698
+java.vm.vendor,sysinfo,,,"Oracle Corporation",1559563619698
+java.vm.version,sysinfo,,,"25.181-b13",1559563619698
+os.name,sysinfo,,,"Mac OS X",1559563619698
+os.version,sysinfo,,,"10.14.2",1559563619698
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1559563621155
+executed,command,org.eclipse.m2e.launching,,"org.eclipse.m2e.actions.LifeCycleInstall.run",1559563629934
+opened,view,org.eclipse.ui.console,,"org.eclipse.ui.console.ConsoleView",1559563631539
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1559563648861
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1559563654676
+opened,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1559563659171
+activated,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1559563659322
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1559563670405
+activated,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1559564147215
+executed,command,org.eclipse.ui,,"org.eclipse.ui.newWizard",1559564155155
+executed,command,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.navigate.open.type",1559564188841
+executed,command,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.edit.text.java.toggleBreadcrumb",1559564218383
+executed,command,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.navigate.open.type",1559564228239
+executed,command,org.eclipse.ui.externaltools,,"org.eclipse.ui.externaltools.ExternalToolMenuDelegateToolbar",1559564236023
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1559564239382
+closed,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1559564239416
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.close",1559564239440
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.descriptorEditor",1559564239772
+closed,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1559564239793
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.close",1559564239814
+opened,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1559564240289
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1559564240348
+closed,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.descriptorEditor",1559564240362
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.close",1559564240371
+opened,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1559564240728
+activated,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1559564240790
+closed,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1559564240801
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.close",1559564240812
+opened,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1559564241092
+activated,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1559564241152
+closed,editor,org.eclipse.m2e.editor,,"org.eclipse.m2e.editor.MavenPomEditor",1559564241172
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.close",1559564241195
+opened,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.descriptorEditor",1559564241755
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.descriptorEditor",1559564241777
+closed,editor,org.eclipse.ui.editors,,"org.eclipse.ui.DefaultTextEditor",1559564241786
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.close",1559564241806
+opened,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1559564243174
+activated,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1559564243204
+closed,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.descriptorEditor",1559564243213
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.close",1559564243233
+closed,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1559564243985
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.close",1559564244023
+opened,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1559564244265
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.close",1559564244274
+activated,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1559564244574
+closed,editor,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.ui.eclipse.editors.ossj.entityEditor",1559564244586
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.close",1559564244602
+opened,view,com.cisco.xmp.sdk.explorer.ui,,"com.cisco.xmp.sdk.explorer.ui.navigatorview",1559564264124
+opened,view,org.eclipse.wst.server.ui,,"org.eclipse.wst.server.ui.ServersView",1559564264169
+opened,view,com.cisco.xmp.sdk.dv.ui,,"com.cisco.xmp.sdk.dv.ui.view",1559564264212
+opened,view,com.cisco.xmp.sdk.part.view,,"com.cisco.xmp.sdk.part.ui.partsView.ui.view",1559564264272
+activated,view,com.cisco.xmp.sdk.explorer.ui,,"com.cisco.xmp.sdk.explorer.ui.navigatorview",1559564264312
+activated,perspective,com.cisco.xmp.sdk.explorer.ui,,"com.cisco.xmp.sdk.dit.perspective",1559564264322
+executed,command,org.eclipse.ui,,"org.eclipse.ui.perspectives.showPerspective",1559564264333
+executed,command,,,"com.cisco.xmp.sdk.dit.perspective",1559564264333
+no handler,command,org.eclipse.jdt.debug.ui,,"org.eclipse.jdt.debug.ui.commands.AllInstances",1559564318751
+no handler,command,org.eclipse.jdt.debug.ui,,"org.eclipse.jdt.debug.ui.commands.AllInstances",1559564328049
+executed,command,org.eclipse.ui,,"org.eclipse.ui.window.openEditorDropDown",1559564335833
+executed,command,org.eclipse.ui,,"org.eclipse.ui.window.openEditorDropDown",1559564338865
+executed,command,org.eclipse.ui,,"org.eclipse.ui.window.openEditorDropDown",1559564339287
+executed,command,org.eclipse.ui,,"org.eclipse.ui.window.openEditorDropDown",1559564339551
+executed,command,org.eclipse.ui,,"org.eclipse.ui.window.openEditorDropDown",1559564339753
+opened,view,org.eclipse.tptp.platform.log.views,,"org.eclipse.hyades.log.ui.internal.navigator.LogNavigator",1559564341287
+activated,view,org.eclipse.tptp.platform.log.views,,"org.eclipse.hyades.log.ui.internal.navigator.LogNavigator",1559564341315
+executed,command,org.eclipse.ui,,"org.eclipse.ui.perspectives.showPerspective",1559564358944
+executed,command,org.eclipse.ui,,"org.eclipse.ui.perspectives.showPerspective",1559564358944
+opened,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1559564359727
+opened,view,org.eclipse.ui.views,,"org.eclipse.ui.views.ContentOutline",1559564359778
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1559564359813
+activated,perspective,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.JavaPerspective",1559564359824
+executed,command,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.navigate.open.type",1559564368919
+executed,command,org.eclipse.ui.ide,,"org.eclipse.ui.file.newQuickMenu",1559564421982
+executed,command,org.eclipse.ui.ide,,"org.eclipse.ui.file.newQuickMenu",1559564427122
+executed,command,org.eclipse.ui.ide,,"org.eclipse.ui.file.newQuickMenu",1559564430781
+executed,command,org.eclipse.ui.ide,,"org.eclipse.ui.file.newQuickMenu",1559564432793
+executed,command,org.eclipse.ui.ide,,"org.eclipse.ui.file.newQuickMenu",1559564580172
+opened,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1559564598326
+activated,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1559564598478
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.text.contentAssist.proposals",1559564711909
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.undo",1559564713933
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.text.contentAssist.proposals",1559564716313
+executed,command,org.eclipse.ui,,"org.eclipse.ui.edit.text.contentAssist.proposals",1559564722488
+executed,command,org.eclipse.ui,,"org.eclipse.ui.file.save",1559564728594
+executed,command,org.eclipse.jdt.debug.ui,,"org.eclipse.jdt.debug.ui.localJavaShortcut.run",1559564812132
+executed,command,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.edit.text.java.add.javadoc.comment",1559564822864
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1559564826919
+closed,editor,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.CompilationUnitEditor",1559564835685
+executed,command,org.eclipse.ltk.ui.refactoring,,"org.eclipse.ltk.ui.refactoring.commands.deleteResources",1559564835885
+opened,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1559564992680
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1559564992698
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1559564999072
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1559565000575
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1559565011377
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1559565013813
+activated,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1559565030170
+executed,command,org.eclipse.ui,,"org.eclipse.ui.views.showView",1559565030176
+activated,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1559565033352
+closed,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ResourceNavigator",1559565033363
+opened,view,org.eclipse.ui.navigator.resources,,"org.eclipse.ui.navigator.ProjectExplorer",1559565041276
+activated,view,org.eclipse.ui.navigator.resources,,"org.eclipse.ui.navigator.ProjectExplorer",1559565041295
+executed,command,org.eclipse.ui,,"org.eclipse.ui.views.showView",1559565041300
+closed,view,org.eclipse.tigerstripe.workbench.ui.base,,"org.eclipse.tigerstripe.workbench.views.artifactExplorerViewNew",1559565102230
+closed,view,com.cisco.xmp.sdk.dv.ui,,"com.cisco.xmp.sdk.dv.ui.view",1559565102243
+closed,view,com.cisco.xmp.sdk.part.view,,"com.cisco.xmp.sdk.part.ui.partsView.ui.view",1559565102251
+closed,view,com.cisco.xmp.sdk.explorer.ui,,"com.cisco.xmp.sdk.explorer.ui.navigatorview",1559565102259
+closed,view,org.eclipse.tptp.platform.log.views,,"org.eclipse.hyades.log.ui.internal.navigator.LogNavigator",1559565102268
+closed,view,org.eclipse.ui.ide,,"org.eclipse.ui.views.ProblemView",1559565102287
+closed,view,org.eclipse.ui.console,,"org.eclipse.ui.console.ConsoleView",1559565102297
+closed,view,org.eclipse.ui.views,,"org.eclipse.ui.views.ContentOutline",1559565102310
+closed,view,org.eclipse.wst.server.ui,,"org.eclipse.wst.server.ui.ServersView",1559565102319
+closed,view,org.eclipse.jdt.ui,,"org.eclipse.jdt.ui.PackageExplorer",1559565102327
+closed,view,org.eclipse.ui.navigator.resources,,"org.eclipse.ui.navigator.ProjectExplorer",1559565102337

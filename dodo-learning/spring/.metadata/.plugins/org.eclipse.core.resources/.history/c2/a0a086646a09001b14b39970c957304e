@@ -1,0 +1,77 @@
+package com.cisco.dnac.dnjson;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.List;
+
+import org.junit.Assert;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.node.ArrayNode;
+
+public class ArrayDiffTest {
+
+    private DnjsonDiff dnjsonDiff;
+    private ObjectMapper mapper;
+    private String baseResourceName;
+    private ArrayNode jsonNode;
+
+    @BeforeTest
+    public void setup() {
+        mapper = new ObjectMapper();
+        dnjsonDiff = new DnjsonDiff();
+    }
+
+    public ArrayDiffTest(String baseResourceName) {
+        this.baseResourceName = baseResourceName;
+    }
+
+    @Test
+    public void testIntArrayDiff() throws IOException {
+        String resource = "/basic_test_data/intArray.json";
+        String testData = IOUtils.toString(getResourceAsStream(resource), "UTF-8");
+        jsonNode = (ArrayNode) mapper.readTree(testData);
+        compare(jsonNode);
+    }
+
+    @Test
+    public void testStringArrayDiff() throws IOException {
+        String resource = "/basic_test_data/stringArray.json";
+        String testData = IOUtils.toString(getResourceAsStream(resource), "UTF-8");
+        jsonNode = (ArrayNode) mapper.readTree(testData);
+        compare(jsonNode);
+    }
+
+    @Test
+    public void testObjectArrayDiff() throws IOException {
+        String resource = "/basic_test_data/objectArray.json";
+        String testData = IOUtils.toString(getResourceAsStream(resource), "UTF-8");
+        jsonNode = (ArrayNode) mapper.readTree(testData);
+        compare(jsonNode);
+    }
+
+    @Test
+    public void testComplexObjectArrayDiff() throws IOException {
+        String resource = "/basic_test_data/complexObjectArray.json";
+        String testData = IOUtils.toString(getResourceAsStream(resource), "UTF-8");
+        jsonNode = (ArrayNode) mapper.readTree(testData);
+        compare(jsonNode);
+    }
+
+    public InputStream getResourceAsStream(String resource) {
+        return ArrayDiffTest.class.getResourceAsStream(resource);
+    }
+
+    public void compare(ArrayNode jsonNode) throws IOException {
+        for (int i = 0; i < jsonNode.size(); i++) {
+            String intendedString = mapper.writeValueAsString(jsonNode.get(i).get("intended"));
+            String runningString = mapper.writeValueAsString(jsonNode.get(i).get("running"));
+            String expected = mapper.writeValueAsString(jsonNode.get(i).get("expected"));
+            List<Diff> actualDiff = dnjsonDiff.getDiff(intendedString, runningString);
+            String actual = mapper.writeValueAsString(actualDiff);
+            Assert.assertEquals("Both are not matching", expected, actual);
+        }
+    }
+}

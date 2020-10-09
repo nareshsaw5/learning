@@ -1,0 +1,170 @@
+package com.cisco.dnac.dnjson;
+
+import java.util.Iterator;
+import java.util.List;
+
+import org.apache.commons.lang3.StringUtils;
+
+import com.cisco.dnac.zjsonpatch.Constants;
+import com.fasterxml.jackson.databind.JsonNode;
+
+public class DiffUtility {
+
+    /**
+     * Hiding constructor
+     */
+    private DiffUtility() {
+    }
+
+    /**
+     * Check for null, empty and None
+     * 
+     * @param value
+     * @return
+     */
+    public static boolean isNotNull(String value) {
+        return (!StringUtils.isEmpty(value) && !"null".equals(value) && isNotNone(value));
+    }
+
+    /**
+     * Check for None/none
+     * 
+     * @param value
+     * @return
+     */
+    private static boolean isNotNone(String value) {
+        return !"None".equalsIgnoreCase(value);
+    }
+
+    /**
+     * Get index of target node which matches with source node
+     *
+     * @param source
+     * @param target
+     * @return
+     */
+    public static int getOriginalIndex(JsonNode source, JsonNode target) {
+        if (target != null && target.isArray()) {
+            Iterator<JsonNode> elements = target.elements();
+            int indx = 0;
+            while (elements.hasNext()) {
+                JsonNode node = elements.next();
+                if (source.equals(node)) {
+                    return indx;
+                }
+                indx++;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * Get the index of matching target node which is equal to source Uses
+     * businessKey or whole object comparison in sequence
+     *
+     * @param source
+     * @param targets
+     * @return
+     */
+    public static int getIndexInTargetWithBusinessKey(JsonNode source, List<JsonNode> targets) {
+        if (targets != null && !targets.isEmpty()) {
+            int indx = 0;
+            for (int i = 0; i < targets.size(); i++) {
+                JsonNode targetNode = targets.get(i);
+                if (areEqualsByBusinessKey(source, targetNode) || source.equals(targetNode)) {
+                    return indx;
+                }
+                indx++;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * Get the index of matching target node which is equal to source Uses
+     * type(@class) or whole object comparison in sequence
+     *
+     * @param source
+     * @param targets
+     * @return
+     */
+    public static int getIndexInTargetWithType(JsonNode source, List<JsonNode> targets) {
+        if (targets != null && !targets.isEmpty()) {
+            int indx = 0;
+            for (int i = 0; i < targets.size(); i++) {
+                JsonNode targetNode = targets.get(i);
+                if (areEqualsByType(source, targetNode) || source.equals(targetNode)) {
+                    return indx;
+                }
+                indx++;
+            }
+        }
+        return -1;
+    }
+
+    /**
+     * Check if source and target node has businessKey and are equals by
+     * businessKey
+     *
+     * @param source
+     * @param target
+     * @return
+     */
+    public static boolean areEqualsByBusinessKey(JsonNode source, JsonNode target) {
+        String srcBk = getBusinessKey(source);
+        String trgtBk = getBusinessKey(target);
+        return (srcBk != null && trgtBk != null && srcBk.equals(trgtBk));
+    }
+
+    /**
+     * Check if source and target node has businessKey and are equals by
+     * businessKey
+     *
+     * @param source
+     * @param target
+     * @return
+     */
+    public static boolean areEqualsByType(JsonNode source, JsonNode target) {
+        boolean returnValue = false;
+
+        List<String> sourceTypeAttributes = source.findValuesAsText(Constants.AT_CLASS);
+        List<String> targetTypeAttributes = target.findValuesAsText(Constants.AT_CLASS);
+        if (!sourceTypeAttributes.isEmpty() && !targetTypeAttributes.isEmpty()) {
+            String sourceType = sourceTypeAttributes.get(0);
+            String targetType = targetTypeAttributes.get(0);
+            // found the position of targetNode which is matching with
+            // sourceNode by Type
+            if (sourceType.equals(targetType)) {
+                return true;
+            }
+        }
+        return returnValue;
+    }
+
+    /**
+     * Compare source and target with value
+     *
+     * @param source
+     * @param target
+     * @return
+     */
+    public static boolean areEquals(JsonNode source, JsonNode target) {
+        return source.equals(target);
+    }
+
+    /**
+     * Get businessKey in the node and split with replace to get only bk
+     * Examples are "2e082a08[200202_200202,EXT_REDIRECT_ACL_72.163.4.161]" and
+     * "1ee5f1a4[200202_200202,EXT_REDIRECT_ACL_72.163.4.161,2]";
+     *
+     * @param sourceNode
+     * @return
+     */
+    public static String getBusinessKey(JsonNode sourceNode) {
+        String bk = null;
+        if (sourceNode.get(Constants.BUSINESS_KEY) != null) {
+            bk = sourceNode.get(Constants.BUSINESS_KEY).asText();
+        }
+        return bk;
+    }
+}
