@@ -1,0 +1,19 @@
+
+O
+squid:S106N"9Replace this use of System.out or System.err by a logger.(Œ×à¿
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(êÏ–Þýÿÿÿÿ
+U
+squid:S106¾"9Replace this use of System.out or System.err by a logger.(ûõ€þÿÿÿÿÿ
+‡"squid:ClassVariableVisibilityCheckÎ"SMake matrix1 a static final constant or non-public and provide accessors if needed.(ö¾‡Ïýÿÿÿÿ
+‚"squid:ClassVariableVisibilityCheckÏ"SMake matrix2 a static final constant or non-public and provide accessors if needed.(ÃŸ´Ð
+1squid:S1220""Move this file to a named package.
+Msquid:S2446ª"0"notify" may not wake up the appropriate thread.(óÄ£¶øÿÿÿÿ
+^squid:S2142¥"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+^squid:S2142²"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+>squid:S1168"&Return an empty array instead of null.(¥¹ï
+Asquid:S00108V")Either remove or fill this block of code.(ï­£Ä
+Bsquid:S00108¥")Either remove or fill this block of code.(ä ¹€
+Bsquid:S00108²")Either remove or fill this block of code.(ä ¹€
+?squid:S1148^"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ
+[squid:S1155º">Use isEmpty() to check whether the collection is empty or not.(¥û¬¤ùÿÿÿÿ

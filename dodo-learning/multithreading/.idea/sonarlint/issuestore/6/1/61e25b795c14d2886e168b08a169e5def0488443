@@ -1,0 +1,22 @@
+
+>squid:S21893""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+>squid:S2189I""Add an end condition to this loop.(˜ïˆžÿÿÿÿÿ
+Zsquid:S2276`"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(­²ÙÍ
+Zsquid:S2276o"CReplace the call to "Thread.sleep(...)" with a call to "wait(...)".(­²ÙÍ
+O
+squid:S106["9Replace this use of System.out or System.err by a logger.(•’òë
+N
+squid:S106^"9Replace this use of System.out or System.err by a logger.(§ïõc
+T
+squid:S106i"9Replace this use of System.out or System.err by a logger.(®„äæøÿÿÿÿ
+T
+squid:S106l"9Replace this use of System.out or System.err by a logger.(òÇš‡øÿÿÿÿ
+1squid:S1220""Move this file to a named package.
+]squid:S21427"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+]squid:S2142M"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+]squid:S2142a"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+]squid:S2142p"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€
+Asquid:S001087")Either remove or fill this block of code.(ä ¹€
+Asquid:S00108M")Either remove or fill this block of code.(ä ¹€
+Asquid:S00108a")Either remove or fill this block of code.(ä ¹€
+Asquid:S00108p")Either remove or fill this block of code.(ä ¹€
